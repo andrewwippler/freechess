@@ -23,6 +23,11 @@ Enter a game by its PGN or pick a game from your Chess.com / Lichess.org account
 - `npm run build` - Compiles TypeScript.
 - `npm run test` - Generates reports from some sample evaluations for classification testing at `src/test/reports`.
 
+### Docker
+- `docker build -t freechess .`
+- `docker run -it -p 3000:3000 freechess`
+- Open http://localhost:3000/ in a web browser.
+
 ## Donate
 I pay to keep my app running and free-to-use for everyone. Any donations are greatly appreciated ❤️
 <br><br>
